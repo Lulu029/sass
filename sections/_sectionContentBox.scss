@@ -1,0 +1,18 @@
+@use "../scss/components/variables";
+
+section .contentBox {
+  position: relative;
+  max-width: 600px;
+  z-index: 1000;
+}
+
+section .contentBox h2 {
+  font-size: 3.75rem;
+  color: $couleur-titre;
+  text-transform: uppercase;
+}
+
+section .contentBox p {
+  font-size: 1.1rem;
+  color: $couleur-titre;
+}

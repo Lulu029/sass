@@ -1,0 +1,63 @@
+@use "./variables" as*;
+
+// Boutons CTA = Prévenez-moi !
+
+// Bouton 1
+header nav ul li a {
+    background: $couleur-secondaire;
+    color: $couleur-titre;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 40px;
+  }
+
+//   Bouton 2
+  section .contentBox a {
+    position: relative;
+    margin-top: 10px;
+    display: inline-block;
+    background: $couleur-secondaire;
+    color: $couleur-titre;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 40px;
+  }
+
+//   Newsletter = e-mail et "m'abonner"
+.newsletter .newsletter__form {
+    margin-top: 20px;
+  }
+  
+  .newsletter .newsletter__form input {
+    padding: 10px;
+    border: 1px solid rgb(51, 51, 51);
+    width: 300px;
+    font-size: 1.125rem;
+    outline: none;
+  }
+  
+  .newsletter .newsletter__form input[type="submit"] {
+    padding: 10px;
+    outline: none;
+    width: 140px;
+    color: $couleur-titre;
+    background: $couleur-secondaire;
+    border: 1px solid $couleur-secondaire;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+
+//   Bouton "close"
+.newsletter .close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }

@@ -1,0 +1,13 @@
+// Le compilateur recherchera automatiquement _variables.scss
+@use "./components/variables";
+@use "./components/animations";
+@use "./components/buttons";
+// @use "./components/mixins";
+
+@use "../sections/header";
+@use "../sections/body";
+@use "../sections/sectionMain";
+@use "../sections/sectionContentBox";
+@use "../sections/sectionImgAndWave";
+@use "../sections/newsletter";
+@use "../sections/footer";

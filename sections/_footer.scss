@@ -1,0 +1,25 @@
+@use "../scss/components/variables";
+/* FOOTER */
+footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .copy {
+  position: absolute;
+  bottom: 30px;
+  color: $couleur-titre;
+  z-index: 1000;
+}
+
+footer .copy a {
+  text-decoration: none;
+  color: $couleur-principale;
+}
+
+footer .copy a:hover {
+  text-decoration: underline;
+  color: $couleur-principale;
+}

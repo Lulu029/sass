@@ -1,0 +1,24 @@
+{
+  "name": "intro-sass",
+  "version": "1.0.0",
+  "description": "exercice sass",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "landing_page",
+    "sass"
+  ],
+  "author": "Sokun",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "npm": "^8.5.0",
+    "postcss": "^8.4.6",
+    "postcss-cli": "^9.1.0"
+  },
+  "devDependencies": {
+    "sass": "^1.49.8"
+  }
+}

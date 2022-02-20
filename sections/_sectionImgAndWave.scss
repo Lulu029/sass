@@ -1,0 +1,17 @@
+/* re-dimensionner image panda ramen*/
+
+section .imgBox img {
+  position: relative;
+  max-width: 900px;
+  width: 100%;
+  margin-top: 130px;
+  z-index: 2;
+}
+
+section .wave {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  pointer-events: none;
+}

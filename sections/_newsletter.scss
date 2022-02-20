@@ -1,0 +1,43 @@
+@use "../scss/components/variables";
+
+/* NEWSLETTER */
+// Effet shadow une fois que l'on clique sur "Prévenez-moi !"
+
+.newsletter {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  padding: 60px;
+  background: $couleur-titre;
+  z-index: 10000;
+  box-shadow: 0 0 0 100vh rgba(13, 24, 17, 0.95);
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.newsletter.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.newsletter .newsletter__title h2 {
+  font-size: 3rem;
+  color: $couleur-principale;
+}
+
+.newsletter .newsletter__title p {
+  font-size: 1.25rem;
+  color: $couleur-principale;
+}
+
+.newsletter .newsletter__policy {
+  margin-top: 10px;
+}
+
+.newsletter .newsletter__policy p {
+  font-size: 0.75rem;
+}
