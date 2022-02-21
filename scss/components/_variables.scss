@@ -1,3 +1,6 @@
+// POLICE
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
 // DECLARATION VARIABLES
 $couleur-principale: #140f1a;
 $couleur-secondaire: #66286b;
@@ -5,5 +8,14 @@ $couleur-titre: #edf2f7;
 $couleur-alt: #331d08;
 $texte: "Poppins", sans-serif;
 
-// Police
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $texte;
+}
+
+body {
+  background: $couleur-principale;
+}

@@ -1,29 +1,29 @@
-@use "./variables" as*;
+@use "variables" as *;
 
 // Compteur
 section .contentBox .countDown {
-    display: flex;
-    margin: 20px 0;
-  }
-  
-  section .contentBox .countDown .time {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: $couleur-titre;
-    margin-right: 20px;
-    font-size: 3rem;
-    min-width: 110px;
-    font-weight: 700;
-    padding: 10px 5px 15px;
-    border-radius: 4px;
-    color: $couleur-secondaire;
-  }
-  
-  section .contentBox .countDown .time span {
-    margin-top: -10px;
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: $couleur-principale;
-  }
+  display: flex;
+  margin: 20px 0;
+}
+
+section .contentBox .countDown .time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: $couleur-titre;
+  margin-right: 20px;
+  font-size: 3rem;
+  min-width: 110px;
+  font-weight: 700;
+  padding: 10px 5px 15px;
+  border-radius: 4px;
+  color: $couleur-secondaire;
+}
+
+section .contentBox .countDown .time span {
+  margin-top: -10px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: $couleur-principale;
+}

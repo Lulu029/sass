@@ -1,8 +1,7 @@
 // Le compilateur recherchera automatiquement _variables.scss
+// Importer nos partials pour les compiler
+
 @use "./components/variables";
-@use "./components/animations";
-@use "./components/buttons";
-// @use "./components/mixins";
 
 @use "../sections/header";
 @use "../sections/body";
@@ -11,3 +10,8 @@
 @use "../sections/sectionImgAndWave";
 @use "../sections/newsletter";
 @use "../sections/footer";
+
+@use "./components/animations";
+@use "./components/buttons";
+
+// @use "./components/mixins";
